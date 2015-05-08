@@ -67,7 +67,7 @@
                                 <div class="event-location">{!e.address}</div>
                             </aura:if>
                             <div id="{!'card-content-'+e.eventId}" class="event-card-scrollable-content">
-                                <ui:outputRichText value="{!e.description}" />
+                                <lmeetup:MeetupOutputRichText richText="{!e.description}" />
                             </div>
                         </div>
                         <div class="event-card-body-actions">

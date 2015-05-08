@@ -1,5 +1,5 @@
-<design:component>
-    <design:attribute name="searchTerms" label="Search Terms"/>
+<design:component label="Meetup List">
+    <design:attribute name="searchTerms" label="Search Terms" description="If no terms are provided, the component will try to search for the latest topics used by the current user"/>
     <design:attribute name="radius" label="Radius"/>
     <design:attribute name="zipCode" label="Zip Code"  />
     <design:attribute name="maxResults" label="Max Results" />
