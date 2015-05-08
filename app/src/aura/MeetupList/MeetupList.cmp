@@ -1,6 +1,6 @@
 <aura:component controller="lmeetup.MeetupListCtrl" implements="flexipage:availableForAllPageTypes">
 
-    <ltng:require scripts="/resource/MeetupResources/js/jquery-1.11.2.min.js" afterScriptsLoaded="{!c.doInit}"/>
+    <ltng:require scripts="/resource/lmeetup__MeetupResources/js/jquery-1.11.2.min.js" afterScriptsLoaded="{!c.doInit}"/>
 
     <aura:attribute name="searchTerms" type="String"/>
     <aura:attribute name="radius" type="Integer" default="50" />
