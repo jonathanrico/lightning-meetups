@@ -12,7 +12,7 @@
 
     <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
     <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
-     <aura:handler event="lmeetup:MeetupSearchEvent" action="{!c.handleSearchEvent}"/>
+    <aura:handler event="lmeetup:MeetupSearchEvent" action="{!c.handleSearchEvent}"/>
 
     <div class="events-container">
 
