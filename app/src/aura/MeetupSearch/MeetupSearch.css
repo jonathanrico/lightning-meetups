@@ -78,4 +78,6 @@
 
 .THIS #meetup-search-criteria button.meetup-search-button{
     margin-top: 10px;
+    padding: .4375rem .875rem;
+    border-radius: .3125rem;
 }
