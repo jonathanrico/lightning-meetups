@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="event-card-body-actions">
-                            <a href="#" class="event-read-more" data-event-id="{!e.eventId}">Read More</a>
+                            <a href="javascript:void(0);" class="event-read-more" data-event-id="{!e.eventId}">Read More</a>
                         </div>
                         <div class="event-card-footer">
                             <aura:if isTrue="{!e.latitude != null}">
