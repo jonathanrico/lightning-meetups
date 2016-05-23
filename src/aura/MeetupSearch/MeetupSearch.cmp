@@ -1,6 +1,6 @@
-<aura:component implements="flexipage:availableForAllPageTypes">
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
 
-    <aura:attribute name="maxResults" type="Integer" default="10"/>
+    <aura:attribute name="maxResults" type="Integer" default="10" access="global" />
 
     <aura:registerEvent name="meetupSearch" type="lmeetup:MeetupSearchEvent"/>
 
